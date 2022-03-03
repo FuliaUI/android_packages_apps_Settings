@@ -93,4 +93,7 @@
     <!-- Fulia World -->
     <string name="fulia_world_dash_title">Fulia World</string>
     <string name="fulia_world_summary">Additional settings</string>
+
+    <!-- FuliaUI version preference -->
+    <string name="fulia_version">FuliaUI version</string>
 </resources>

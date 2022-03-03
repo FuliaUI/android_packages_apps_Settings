@@ -35,6 +35,14 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+    
+    <!-- FuliaUI Version  -->
+    <Preference
+        android:key="fulia_version"
+        android:title="@string/fulia_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FuliaUIVersionPreferenceController"/>    
 
     <!-- Device name -->
     <Preference
