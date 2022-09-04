@@ -90,4 +90,7 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 
+    <!-- Fulia World -->
+    <string name="fulia_world_dash_title">Fulia World</string>
+    <string name="fulia_world_summary">Additional settings</string>
 </resources>

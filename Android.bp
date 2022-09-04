@@ -44,7 +44,16 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java", "src/**/*.kt",
+           "FuliaWorld/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.fuliaui.settings"],
+
+    resource_dirs: [
+        "res",
+        "FuliaWorld/res",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -78,6 +87,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "VendorSupport-preference",
+        "kotlin-stdlib",
     ],
 
     libs: [

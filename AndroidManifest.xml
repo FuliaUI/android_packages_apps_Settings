@@ -4492,6 +4492,19 @@
             </intent-filter>
         </activity>
 
+        <!-- FuliaWorld -->
+        <activity android:name=".Settings$FuliaWorldActivity"
+            android:label="@string/fulia_world_dash_title"
+            android:icon="@drawable/ic_homepage_fulia"
+            android:exported="true"
+            android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.fuliaui.settings.FuliaWorld" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
